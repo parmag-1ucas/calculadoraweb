@@ -56,16 +56,3 @@ h2{
     padding: 5px;
     font-family: 'Chakra Petch', sans-serif;
 }
-
-#marcadagua img{
-    width: 60px;
-    height: 40px;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-#marcadagua{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
