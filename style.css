@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Lexend&family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+
+}
+.fundo{
+    background-image: linear-gradient(135deg,#2c12c4,#00007a);
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Lexend', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 1px 2px, rgb(0, 0, 0) 0px 2px 4px, rgb(0, 0, 0) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgb(0, 0, 0) 0px 16px 32px, rgba(0, 0, 0, 0.596) 0px 32px 64px;
+}
+.botao{
+    background-color: rgb(31,31,31);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    margin: 3px;
+    color: rgb(255, 255, 255);
+}
+.botao:hover{
+    background-color: black;
+
+}
+#resultado{
+    background-color: rgb(255, 255, 255);
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#marcadagua img{
+    width: 60px;
+    height: 40px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#marcadagua{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
